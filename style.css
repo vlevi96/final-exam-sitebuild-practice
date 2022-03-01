@@ -1,4 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+  
+    background: transparent;
+  
+    font-family: inherit;
+    
+    text-decoration: none;
+  }
+  
+  ol, ul, li {
+    list-style:none;
+    display:block;
+  }
+  
+  table {
+    border-collapse:collapse;
+    border-spacing:0
+  }
+  
+  a img {
+    border: none
+  }
+  
+  button, a {
+    cursor: pointer;
+    color: inherit
+  }
+  
+  textarea {
+    resize: none
+  }
+  
+  button, input, textarea, select {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    border-radius: 0
+  }
 body{
     background-color: #ffeedf;
     color: #145434;
+    font-family: 'Space Grotesk', sans-serif;
+}
+div{
+    position: relative;
+    background-color: #145434;
+    color: white;
+    border: 1px solid red;
+    max-width: 500px;
+    height: 50px;
+
+    margin: auto;
+    margin-top: 40px;
+}
+#number{
+    display: flex;
+    justify-content: center;/*függőleges*/
+    align-items: center;/*vízszintes */
+    position: absolute;
+    background-color: red;
+
+    height: 30px;
+    width: 30px;
+
+    bottom: -15px;;
+    right: -15px;
+    
 }
